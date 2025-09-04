@@ -31,7 +31,6 @@ open class Acuario (open var largo: Int = 100, open var ancho: Int = 20, open va
         "Alto: $alto cm ")
         println("Volumen: $volumen l agua: $agua l (${agua/volumen * 100.0}% lleno)")
     }
-
 }
 
 class TanqueTorre (override var alto: Int, var diametro: Int): Acuario(alto= alto, ancho = diametro, largo = diametro){
